@@ -1,0 +1,95 @@
+Mzansi Retail Sales & Customer Churn Dashboard
+Project Overview
+The Mzansi Retail Sales & Customer Churn Dashboard is a business intelligence project designed to analyse retail sales performance, regional revenue, product category performance, and customer retention.
+
+The project combines MySQL for data querying and analysis with Microsoft Power BI for interactive reporting and visualisation. It demonstrates how data analytics can help businesses understand performance and make informed decisions.
+
+Business Problem
+Retail businesses need to understand their sales performance, identify their strongest markets, evaluate product category contributions, and monitor customer retention.
+
+This project addresses these needs by presenting key performance indicators and sales analysis in an interactive dashboard.
+
+Project Objectives
+Analyse total revenue and order volumes.
+Compare sales performance across regions.
+Evaluate revenue by product category.
+Monitor customer retention and churn indicators.
+Present business performance through interactive visualisations.
+Develop actionable recommendations based on the analysis.
+Tools and Technologies
+Tool	Purpose
+MySQL	Database management and data querying
+SQL	Data aggregation, joins, analytical queries, and views
+Microsoft Power BI	Interactive dashboard and visualisation
+DAX	KPI calculations and analytical measures
+Key Performance Indicators
+The following results were recorded during dashboard development.
+
+KPI	Result
+Total Revenue	R129,124.60
+Total Orders	30
+Active Customers	4
+Churned Customers	6
+Customer Retention Rate	40.00%
+Customer Churn Rate	60.00%
+Electronics Revenue	R98,624.86
+Electronics Orders	13
+Note: Customer retention and churn metrics depend on the definitions and observation period used in the analysis.
+
+Regional Sales Performance
+Region	Orders	Revenue
+Gauteng	15	R65,844.83
+Free State	6	R24,704.89
+KwaZulu-Natal	6	R20,299.91
+Western Cape	3	R18,274.97
+Key Insight
+Gauteng generated the highest recorded revenue among the regions analysed. This makes it an important market for further investigation.
+
+Product Category Performance
+Category	Orders	Quantity Sold	Revenue
+Electronics	13	15	R98,624.86
+Clothing	9	13	R16,409.87
+Home & Garden	8	14	R14,089.87
+Key Insight
+Electronics generated the highest revenue among the product categories analysed. Management could investigate the factors driving this performance and identify opportunities to grow the other categories.
+
+Customer Retention and Churn
+The dashboard recorded a customer retention rate of 40% and a churn rate of 60%.
+
+These results highlight customer retention as an area for further investigation. The interpretation of these metrics should account for the definitions of active and churned customers and the period covered by the data.
+
+Business Recommendations
+Investigate the factors contributing to Gauteng's strong sales performance.
+Evaluate revenue concentration within the Electronics category.
+Investigate customer purchasing behaviour and potential retention challenges.
+Monitor sales and customer KPIs regularly.
+Incorporate additional historical customer data to support more robust churn analysis.
+Project Structure
+mzansi-retail-sales-churn-dashboard/
+├── README.md
+├── sql/
+│   └── mzansi_retail_queries.sql
+├── powerbi/
+│   └── mzansi_retail_dashboard.pbix
+├── screenshots/
+│   └── dashboard_overview.png
+└── docs/
+    └── project_documentation.md
+The filenames shown above are examples. The final structure should reflect the actual files included in the repository.
+
+Skills Demonstrated
+SQL querying and data aggregation
+Relational database analysis
+Power BI dashboard development
+DAX measures and KPI calculations
+Data visualisation
+Business intelligence reporting
+Business analysis and insight communication
+Limitations and Future Improvements
+The customer retention and churn metrics depend on the available data and the definitions applied. Additional historical customer data and a clearly defined churn observation period would strengthen future analysis.
+
+Potential improvements include expanding the analysis to additional periods, investigating customer purchasing patterns, and developing predictive models when sufficient data is available.
+
+Conclusion
+This project demonstrates the application of SQL and Power BI to a retail business scenario. It brings sales performance indicators, regional comparisons, product category analysis, and customer metrics together in an interactive business intelligence dashboard.
+
